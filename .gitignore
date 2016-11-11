@@ -1,0 +1,5 @@
+data/
+.*.swp
+.~lock*
+data.bak
+.DS_Store
