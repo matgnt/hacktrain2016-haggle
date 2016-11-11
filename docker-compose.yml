@@ -1,0 +1,16 @@
+database:
+  image: neo4j:3.0.6
+  ports:
+    - "7474:7474"
+    - "7687:7687"
+    - "1337:1337"
+  volumes:
+    - ./data:/data
+    - ./csv:/var/lib/neo4j/import/csv
+
+#node:
+#  build: ./server
+#  links:
+#    - database
+#  ports:
+#    - "3000:3000"

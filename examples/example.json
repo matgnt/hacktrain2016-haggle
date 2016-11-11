@@ -1,0 +1,190 @@
+{
+  "keys": [
+    "shortestPath",
+    "totalLoading"
+  ],
+  "length": 2,
+  "_fields": [
+    {
+      "start": {
+        "identity": {
+          "low": 2076,
+          "high": 0
+        },
+        "labels": [
+          "Station"
+        ],
+        "properties": {
+          "name": "London Bridge"
+        }
+      },
+      "end": {
+        "identity": {
+          "low": 1964,
+          "high": 0
+        },
+        "labels": [
+          "Station"
+        ],
+        "properties": {
+          "name": "Liverpool Street"
+        }
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": {
+              "low": 2076,
+              "high": 0
+            },
+            "labels": [
+              "Station"
+            ],
+            "properties": {
+              "name": "London Bridge"
+            }
+          },
+          "relationship": {
+            "identity": {
+              "low": 3827,
+              "high": 0
+            },
+            "start": {
+              "low": 2076,
+              "high": 0
+            },
+            "end": {
+              "low": 1963,
+              "high": 0
+            },
+            "type": "CONNECTS_TO",
+            "properties": {
+              "line": "Northern",
+              "loading": {
+                "low": 8,
+                "high": 0
+              }
+            }
+          },
+          "end": {
+            "identity": {
+              "low": 1963,
+              "high": 0
+            },
+            "labels": [
+              "Station"
+            ],
+            "properties": {
+              "name": "Bank"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": {
+              "low": 1963,
+              "high": 0
+            },
+            "labels": [
+              "Station"
+            ],
+            "properties": {
+              "name": "Bank"
+            }
+          },
+          "relationship": {
+            "identity": {
+              "low": 3828,
+              "high": 0
+            },
+            "start": {
+              "low": 1963,
+              "high": 0
+            },
+            "end": {
+              "low": 1981,
+              "high": 0
+            },
+            "type": "CONNECTS_TO",
+            "properties": {
+              "line": "Northern",
+              "loading": {
+                "low": 1,
+                "high": 0
+              }
+            }
+          },
+          "end": {
+            "identity": {
+              "low": 1981,
+              "high": 0
+            },
+            "labels": [
+              "Station"
+            ],
+            "properties": {
+              "name": "Moorgate"
+            }
+          }
+        },
+        {
+          "start": {
+            "identity": {
+              "low": 1981,
+              "high": 0
+            },
+            "labels": [
+              "Station"
+            ],
+            "properties": {
+              "name": "Moorgate"
+            }
+          },
+          "relationship": {
+            "identity": {
+              "low": 3581,
+              "high": 0
+            },
+            "start": {
+              "low": 1981,
+              "high": 0
+            },
+            "end": {
+              "low": 1964,
+              "high": 0
+            },
+            "type": "CONNECTS_TO",
+            "properties": {
+              "line": "Circle",
+              "loading": {
+                "low": 8,
+                "high": 0
+              }
+            }
+          },
+          "end": {
+            "identity": {
+              "low": 1964,
+              "high": 0
+            },
+            "labels": [
+              "Station"
+            ],
+            "properties": {
+              "name": "Liverpool Street"
+            }
+          }
+        }
+      ],
+      "length": 3
+    },
+    {
+      "low": 17,
+      "high": 0
+    }
+  ],
+  "_fieldLookup": {
+    "shortestPath": 0,
+    "totalLoading": 1
+  }
+}
